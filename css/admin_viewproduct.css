@@ -13,11 +13,11 @@ body {
     font-family: 'Ruda', sans-serif;
 }
 
-.container{
+.viewpr__container{
     position: relative;
     width: 100%;
 }
-.navigation{
+.viewpr__navigation{
     position: fixed;
     width: 300px;
     height: 100%;
