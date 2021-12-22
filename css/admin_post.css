@@ -12,12 +12,11 @@ body {
     font-family: 'Ruda', sans-serif;
 }
 
-.container {
+.post__container{
     position: relative;
     width: 100%;
 }
-
-.navigation {
+.post__navigation{
     position: fixed;
     width: 300px;
     height: 100%;
@@ -87,13 +86,14 @@ body {
     white-space: nowrap;
 }
 
-.main {
-    position: absolute;
-    width: calc(100% - 300px);
-    left: 300px;
-    min-height: 100vh;
-    background: rgb(221, 221, 221);
-    transition: 0.5s;
+
+.post__main{
+      position: absolute;
+      width: calc(100% - 300px);
+      left: 300px;
+      min-height: 100vh;
+      background: rgb(221, 221, 221);
+      transition: 0.5s;
 }
 
 .main.active {
@@ -171,12 +171,13 @@ body {
     object-fit: cover;
 }
 
-.details {
-    position: relative;
-    width: 100%;
-    padding: 10px;
-    padding-top: 10px;
+.post__details{
+   position: relative;
+   width: 100%;
+   padding: 10px;
+   padding-top: 10px;
 }
+.post__product{
 
 .details .product {
     position: relative;
@@ -200,13 +201,13 @@ body {
     font-size: 30px;
 }
 
-.card__header {
+.post__cardHeader{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.card__header h2 {
+.post__cardHeader h2{
     font-weight: 700;
     color: black;
 }
@@ -262,10 +263,11 @@ body {
     .cardBox {
         grid-template-columns: repeat(1, 1fr);
     }
-    .details.product {
+    .post__product {
         overflow: auto;
     }
-    .details.product table {
+
+    .post__product table{
         width: 600px;
     }
     .navigation {

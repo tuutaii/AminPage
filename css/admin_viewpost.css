@@ -82,7 +82,7 @@ body {
     white-space: nowrap;
 }
 
-.main{
+.viewpr__main{
       position: absolute;
       width: calc(100% - 300px);
       left: 300px;
